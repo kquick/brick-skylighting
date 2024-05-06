@@ -89,7 +89,7 @@ app programs =
 usage :: IO ()
 usage = do
     pn <- getProgName
-    putStrLn $ pn <> " <path to XML syntax definintion directory>"
+    putStrLn $ pn <> " <path to XML syntax definition directory>"
 
 main :: IO ()
 main = do
